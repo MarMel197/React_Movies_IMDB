@@ -11,10 +11,10 @@ const FilmList = ({films}) => {
     })
     return(
         <>
-        <h1>Upcoming Films</h1>
-        
+        <h1>Upcoming Film Releases for UK</h1>
+        <hr></hr>
         {filmArray}
- 
+        <hr></hr>
         </>
     )
 }
